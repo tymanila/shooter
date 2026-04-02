@@ -86,7 +86,6 @@ while True:
         for e in enemies:
             e.kill()
         player.speed = 0
-
     
 
     if sprite.spritecollide(player, enemies,  False) or missed > 2:
@@ -99,4 +98,4 @@ while True:
     clock.tick(60)
     display.update()
 
-#vbruve
+
